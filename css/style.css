@@ -1,4 +1,6 @@
 /* style.css */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,18 +9,25 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #050000;
     color: white;
     padding: 1em;
     text-align: center;
+      
 }
+h1{
+    font-family: "Metal Mania", cursive;
+    color: darkorange;
+    font-size: 50px;
+}
+
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #050000;
 }
 
 nav ul li {
@@ -27,8 +36,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(245, 3, 3);
     text-decoration: none;
+    font-size: 25px;
+    font-family: "Metal Mania", cursive;
+
 }
 
 main {
@@ -37,7 +49,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #050000;
     color: white;
     text-align: center;
     padding: 10px;
@@ -45,3 +57,34 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/*
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Creepster', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    color: #ff6f61;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+button, #spiritContactForm button {
+    background-color: #ff6f61;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.home #surprise {
+    color: #ff6f61;
+    font-size: 20px;
+    text-align: center;
+}
+*/
